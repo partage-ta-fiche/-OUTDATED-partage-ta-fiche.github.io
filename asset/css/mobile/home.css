@@ -1,0 +1,13 @@
+.about {
+    background-color: #64B4DF !important;
+}
+
+.new-card {
+    margin: 0 auto ;
+    text-align: center;
+
+}
+
+.new-card .card {
+    margin: 0 auto ;
+}
