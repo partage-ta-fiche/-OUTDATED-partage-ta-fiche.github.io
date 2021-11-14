@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partage ta fiche</title>
     <link rel="stylesheet" href="/asset/MDB/css/mdb.min.css">
-    <link rel="stylesheet" href="/asset/css/mobile/navbar-mobile.css">
+    <link rel="stylesheet" href="/asset/css/mobile/navbar-mobile.css" media="screen and (max-width: 765px)" >
     <link rel="stylesheet" href="/asset/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/asset/css/mobile/home.css">
+    <link rel="stylesheet" href="/asset/css/mobile/home.css" media="screen and (max-width: 765px)">
+    <link rel="stylesheet" href="/asset/css/mobile/nav-menu.css" media="screen and (max-width: 765px)">
 </head>
 <body>
     <header>
         <nav>
+          <br><br><br><br>
+          <script type="text/javascript"> 
+
+            $(function(){
+              $("#includedContent").load("/page/include/nav.html"); 
+            });
+          
+          </script> 
+           <script src="/asset/js/jquery.js"></script>
+          
+          
+          
+          <div id="includedContent"></div>
                        
            
         </nav>
