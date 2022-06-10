@@ -11,3 +11,21 @@
 .new-card .card {
     margin: 0 auto ;
 }
+
+.color {
+    width: 500px;
+    height: 500px;
+    
+}
+.c1 {
+    background-color: #64B4DF !important;
+}
+.c2 {
+    background-color: #DA7ADE !important;
+}
+.c3 {
+    background-color: #6F7DDE !important;
+}
+.c4 {
+    background-color: #59DEC5 !important;
+}
